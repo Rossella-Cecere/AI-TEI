@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Richard West to Thomas Gray</title>
+            <author><persName>
+                  <forename>Richard</forename>
+                  <surname>West</surname>
+                  <idno type="VIAF">143039</idno>
+               </persName>
+            </author>
+            <respStmt>
+               <resp>The original encoding was used only as a guideline. Encoded by</resp>
+               <persName><forename>Rossella</forename>
+                  <surname>Cecere</surname></persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Source text for masters' thesis research</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="collection">
+               <title>Correspondence of Thomas Gray</title>
+               <author><persName>
+                     <forename>Thomas</forename>
+                     <surname>Gray</surname>
+                     <idno type="VIAF">9889965</idno>
+                  </persName></author>
+               <publisher>Clarendon Press</publisher>
+               <date>1971</date>
+               <ptr target="https://www.thomasgray.org/texts/letters/tgal0080#ft"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <date when="1739-09-28">28 September 1739</date>
+               <persName>
+                  <forename>Richard</forename>
+                  <surname>West</surname>
+                  <idno type="VIAF">143039</idno>
+               </persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Gray</surname>
+                  <idno type="VIAF">9889965</idno>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         <settingDesc>
+            <!-- places -->
+            <listPlace>
+               <place xml:id="Temple">
+                  <placeName>Temple</placeName>
+               </place>
+               <place xml:id="R_river">
+                  <placeName type="river">Rhône</placeName>
+                  <country>France</country>
+                  <idno type="VIAF">156727178</idno>
+               </place>
+               <place xml:id="F_mount">
+                  <geogName><geogFeat>mount</geogFeat>
+                     <name>Fourviere</name></geogName>
+                  <country>France</country>
+                  <settlement>Lyon</settlement>
+                  <district>Fourviere</district>
+                  <idno type="VIAF">7645800</idno>
+               </place>
+               <place xml:id="Tunbridge">
+                  <placeName>Tunbridge</placeName>
+                  <country>England</country>
+                  <region>Kent</region>
+                  <idno type="VIAF">125554440</idno>
+               </place>
+               <place xml:id="London">
+                  <placeName>London</placeName>
+                  <country>England</country>
+                  <idno type="VIAF">261467287</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
+         <langUsage>
+            <language ident="eng"/>
+            <language ident="lat"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <dateline><placeName key="Temple">Temple</placeName>, <date when="1739-09-28"><choice>
+                     <abbr>Sep.</abbr>
+                     <expan>September</expan>
+                  </choice> 28. 1739.</date>
+            </dateline>
+         </opener>
+         <p>If wishes could turn to realities, I would fling down my law books, and sup with you <choice>
+               <orig>to-night</orig>
+               <reg>tonight</reg>
+            </choice>. But, alas, here am I doomed to fix, while you are fluttering from city to
+            city, and enjoying all the pleasures which a gay climate can afford. It is out of the
+            power of my heart to envy your good fortune, yet I cannot help indulging a few natural
+            desires; as for example, to take a walk with you on the banks of the <placeName
+               key="R_river">Rhône</placeName>, and to be climbing up <geogName key="F_mount"
+                  ><geogFeat>mount</geogFeat>
+               <name>Fourviere</name></geogName>;</p>
+         <cit>
+            <quote>
+               <foreign xml:lang="latin">Jam mens prætrepidans avet vagari: <lb/> Jam læti studio
+                  pedes vigescunt. </foreign>
+            </quote>
+            <bibl type="collection">
+               <title>Liber</title>
+               <title>Carme 46</title>
+               <biblScope unit="line" from="7" to="8">verse 7-8</biblScope>
+               <author><persName><forename>Gaio Valerio</forename>
+                     <surname>Catullo</surname></persName></author>
+               <date>I century B.C.</date></bibl>
+         </cit>
+         <p>However, so long as I am not deprived of your correspondence, so long shall I always
+            find some pleasure in being at home. And, setting all vain curiosity aside, when the fit
+            is over, and my reason begins to come to herself, I have several other powerful motives
+            which might easily cure me of my restless inclinations: Amongst these, my Mother's ill
+            state of health is not the least; which was the reason of our going to <placeName
+               key="Tunbridge"><orig>Tunbridge</orig><reg cert="medium">Tonbridge</reg></placeName>,
+            so that you cannot expect much description or amusement from thence. Nor indeed is there
+            much room for either; for all diversions there may be reduced to two articles, gaming
+            and going to church. They were pleased to publish certain Tunbrigiana this season; but
+            such ana! I believe there were never so many vile little verses put together before. So
+            much for <placeName key="Tunbridge"><orig>Tunbridge</orig><reg cert="medium"
+                  >Tonbridge</reg></placeName>: <placeName key="London">London</placeName> affords
+            me as little to say. What! so huge a town as <placeName key="London">London</placeName>?
+            Yes, consider only how I live in that town. I never go into the gay or high world, and
+            consequently receive nothing from thence to brighten my imagination. The busy world I
+            leave to the busy; and am resolved never to talk politics till I can act at the same
+            time. To tell old stories, or prate of old books, seems a little musty; and <foreign
+               xml:lang="french">toujours Chapon bouilli</foreign>, won't do. However, for want of
+            better fare, take another little mouthful of my poetry. </p>
+         <cit>
+            <q>
+               <foreign xml:lang="latin">O meæ jucunda comes quietis! <lb/> Quæ ferè ægrotum solita
+                  es levare <lb/> Pectus, et sensim ah! nimis ingruentes <lb/> Fallere curas: <lb/>
+               </foreign>
+               <foreign xml:lang="latin">Quid canes? quanto Lyra dic furore <lb/> Gesties, quando
+                  hâc reducem sodalem <lb/> Glauciam gaudere simul videbis <lb/> Meque sub umbrâ?
+                  <lb/>
+               </foreign>
+            </q>
+            <bibl type="collection">
+               <title>The poetical works: of Richard West</title>
+               <title>Ad amicos</title>
+               <author><persName><forename>Richard</forename>
+                     <surname>West</surname></persName></author>
+               <date>1782</date></bibl>
+         </cit>
+      </body>
+   </text>
+</TEI>

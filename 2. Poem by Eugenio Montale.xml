@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Spesso il male di vivere ho incontrato</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Source text for masters' thesis research</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl type="collection">
+                  <title>Ossi di seppia</title>
+                  <author><persName>
+                        <forename>Eugenio</forename>
+                        <surname>Montale</surname>
+                     </persName>
+                     <idno type="VIAF">73857542</idno></author>
+                  <publisher>
+                     <persName>
+                        <forename>Piero</forename>
+                        <surname>Gobetti</surname></persName>
+                  </publisher>
+                  <date when="1925-06-15">15 June 1925</date>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ita"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem" rhyme="abba|cdda">
+            <head>Spesso il male di vivere ho incontrato</head>
+            <lg type="stanza" n="1">
+               <l>Spesso il male di vivere ho incontrato:</l>
+               <l>era il rivo strozzato che gorgoglia,</l>
+               <l>era l’incartocciarsi della foglia</l>
+               <l>riarsa, era il cavallo stramazzato.</l>
+            </lg>
+            <lg type="stanza" n="2">
+               <l>Bene non seppi, fuori del prodigio</l>
+               <l>che schiude la divina Indifferenza:</l>
+               <l>era la statua nella sonnolenza</l>
+               <l>del meriggio, e la nuvola, e il falco alto levato.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
