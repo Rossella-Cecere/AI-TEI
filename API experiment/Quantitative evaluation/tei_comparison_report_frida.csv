@@ -1,0 +1,2 @@
+Model,Precision (Nominative),Recall (Nominative),F1 (Nominative),Precision (Textual),Recall (Textual),F1 (Textual),Final Hybrid Score
+Ai,0.0,0.0,0,0.4,0.667,0.5,0.2
