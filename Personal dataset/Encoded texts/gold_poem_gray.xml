@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sonnet [ on the Death of Mr Richard West ]</title>
+            <respStmt>
+               <resp>The original encoding was used only as a guideline. Encoded by</resp>
+               <persName><forename>Rossella</forename>
+                  <surname>Cecere</surname></persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Source text for masters' thesis research</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="collection">
+               <title>The Poetical Works of Thomas Gray: English and Latin</title>
+               <author><persName>
+                     <forename>Thomas</forename>
+                     <surname>Gray</surname>
+                     <idno type="VIAF">9889965</idno>
+                  </persName></author>
+               <publisher>George Bell and sons</publisher>
+               <date>1891</date>
+               <ptr target="https://www.thomasgray.org/texts/poems/sorw"/>
+            </bibl>
+            <!-- persons -->
+            <listPerson>
+               <person>
+                  <persName type="mythological" xml:id="Phoebus">Phoebus</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem" met="-+|-+|-+|-+|-+/" rhyme="ababcdcdefefef">
+            <head>Sonnet [ on the Death of Mr Richard West ]</head>
+            <lg>
+               <l>In vain to me the smiling mornings shine,</l>
+               <l>And reddening <persName type="mythological" key="Phoebus">Phoebus</persName> lifts
+                  his golden fire:</l>
+               <l>The birds in vain their amorous descant join,</l>
+               <l>Or cheerful fields resume their green attire:</l>
+               <l>These ears, alas! for other notes repine,</l>
+               <l>A different object do these eyes require.</l>
+               <l>My lonely anguish melts no heart but mine;</l>
+               <l>And in my breast the imperfect joys expire.</l>
+               <l>Yet morning smiles the busy race to cheer,</l>
+               <l>And new-born pleasure brings to happier men:</l>
+               <l>The fields to all their wonted tribute bear;</l>
+               <l>To warm their little loves the birds complain.</l>
+               <l>I fruitless mourn to him that cannot hear,</l>
+               <l>And weep the more because I weep in vain.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

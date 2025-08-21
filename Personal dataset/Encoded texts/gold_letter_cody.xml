@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from William F. Cody to Julia Cody Goodman</title>
+            <respStmt>
+               <resp>The original encoding was used only as a guideline. Encoded by</resp>
+               <persName><forename>Rossella</forename>
+                  <surname>Cecere</surname></persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Source text for masters' thesis research</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author><persName>
+                     <forename>William Frederick</forename>
+                     <surname>Cody</surname>
+                     <idno type="VIAF">315943449</idno>
+                  </persName>
+               </author>
+               <date when="1873-05-11">May 11th /73</date>
+               <ptr target="https://codyarchive.org/item/wfc.bio.00001#bottomBibl"/>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>McCracken Research Library, Buffalo Bill Center of the
+                     West</repository>
+                  <idno>MS6.0039a-b</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>4 hand-written pages</p>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Ruled paper</support>
+                        <extent>4 pages <dimensions unit="mm">
+                              <height/>
+                              <width/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote script="rough" medium="pen"><p>Media: black ink</p></handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>
+                  <forename>William Frederick</forename>
+                  <surname>Cody</surname>
+                  <idno type="VIAF">315943449</idno>
+               </persName>
+               <date when="1873-05-11">May 11, 1873</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>
+                  <forename>Julia Melvina</forename>
+                  <surname>Cody Goodman</surname>
+                  <idno type="VIAF">9778538</idno>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         <particDesc>
+            <!-- persons -->
+            <listPerson>
+               <person xml:id="Julia_C">
+                  <persName>
+                     <forename>Julia Melvina</forename>
+                     <surname>Cody Goodman</surname>
+                  </persName>
+                  <idno type="VIAF">9778538</idno>
+               </person>
+               <person xml:id="Louisa_C">
+                  <persName>
+                     <forename>Louisa Maud</forename>
+                     <surname>Frederici Cody</surname>
+                     <idno type="VIAF">174501225</idno>
+                  </persName>
+               </person>
+               <person xml:id="William_C">
+                  <persName>
+                     <forename>William Frederick</forename>
+                     <surname>Cody</surname>
+                  </persName>
+                  <idno type="VIAF">315943449</idno>
+               </person>
+               <person xml:id="Uncle">
+                  <name>Uncle Guss</name>
+               </person>
+               <person xml:id="Aunt">
+                  <name>Aunt Eliza</name>
+               </person>
+               <person xml:id="Uncle_E">
+                  <name>Uncle Enoch Taylor</name>
+               </person>
+               <person xml:id="President">
+                  <persName><roleName>President</roleName></persName>
+               </person>
+            </listPerson>
+            <!-- organizations -->
+            <listOrg>
+               <org xml:id="WH">
+                  <orgName>White House</orgName>
+                  <country>United States of America</country>
+                  <region>Washington <choice>
+                        <abbr>D.C.</abbr>
+                        <expan>District of Columbia</expan>
+                     </choice></region>
+                  <idno type="VIAF">155235437</idno>
+               </org>
+            </listOrg>
+         </particDesc>
+         <settingDesc>
+            <!-- places -->
+            <listPlace>
+               <place xml:id="Washington">
+                  <placeName>Washington. <choice>
+                        <abbr>D. C.</abbr>
+                        <expan>District of Columbia</expan>
+                     </choice></placeName>
+                  <country>United States of America</country>
+                  <idno type="VIAF">153590112</idno>
+               </place>
+               <place xml:id="Westchester">
+                  <placeName>Westchester</placeName>
+                  <country>United States of America</country>
+                  <district>Pennsylvania</district>
+                  <idno type="VIAF">157704836</idno>
+               </place>
+               <place xml:id="Philadelphia">
+                  <placeName>Philadelphia</placeName>
+                  <country>United States of America</country>
+                  <region>Pennsylvania</region>
+                  <idno type="VIAF">180363010</idno>
+               </place>
+               <place xml:id="NY">
+                  <placeName>New York</placeName>
+                  <country>United States of America</country>
+                  <region>New York</region>
+                  <idno type="VIAF">266415900</idno>
+               </place>
+               <place xml:id="Jerman">
+                  <placeName>Jerman Town</placeName>
+                  <country>United States of America</country>
+                  <region>Virginia</region>
+                  <idno type="VIAF">2421123</idno>
+               </place>
+               <place xml:id="Nebraska">
+                  <placeName>Nebraska</placeName>
+                  <country>United States of America</country>
+                  <region>Nebraska</region>
+                  <idno type="VIAF">131284407</idno>
+               </place>
+               <place xml:id="Europe">
+                  <placeName>Europe</placeName>
+                  <idno type="VIAF">170298814</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
+         <langUsage>
+            <language ident="eng"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb type="page" n="1"/>
+            <opener>
+               <dateline>
+                  <address>
+                     <addrLine><placeName key="Washington">Washington. <choice>
+                              <abbr>D. C.</abbr>
+                              <expan>District of Columbia</expan>
+                           </choice></placeName></addrLine>
+                  </address>
+                  <date when="1873-05-11">May 11th /73</date>
+               </dateline>
+               <salute>My Dear <name key="Julia_C">Sister</name></salute>
+            </opener>
+            <p><persName key="Louisa_C" full="abb">Lulu</persName> sent me your letter I was ever so
+               glad to hear from you And to hear you are all well <persName key="Louisa_C"
+                  full="abb">Lulu</persName> has not been well for sometime but she is getting
+               better. We are going to <choice>
+                  <sic>movve</sic>
+                  <corr>move</corr>
+               </choice> to <placeName key="Westchester">Westchester</placeName> where <name
+                  key="Uncle_G">Uncle Guss</name> live I am <choice>
+                  <sic>goin</sic>
+                  <corr>going</corr>
+               </choice> to buy me a house there it a beautiful country village <measure unit="s"
+                  commodity="hour" n="1">one hours</measure> ride from <placeName key="Philadelphia"
+                  >Philadelphia</placeName> or is <measure unit="s" commodity="hour" n="4">four
+                  hours</measure> ride from </p>
+            <pb type="page" n="2"/>
+            <p>
+               <placeName key="NY">New York</placeName>. Grand Mother is still <choice>
+                  <orig>a live</orig>
+                  <reg>alive</reg>
+               </choice> and bids fare to out live us all I will find out what she is worth and
+               about what she intends to do with her property when she dies. <name key="Uncle_G"
+                  >Uncle Guss</name> you know was her step son and <name key="Aunt">Aunt
+                  Eliza</name> was her step daughter. It is a mixed up affair <name key="Uncle_G"
+                  >Uncle Guss</name> and family are the nicest folks in the world. You remember
+                  <name key="Uncle_E">Uncle Enoch Taylor</name> and sister Mother.used to think so
+               much of they live in <placeName key="Jerman">Jerman Town</placeName>. We have <choice>
+                  <orig>a bout</orig>
+                  <reg>about</reg>
+               </choice>
+               <measure type="relationship" n="1700">17 hundred relations</measure>
+               <choice>
+                  <sic>liveing</sic>
+                  <corr>living</corr>
+               </choice> near <placeName key="Philadelphia">Philadelphia</placeName>. We had. </p>
+            <pb type="page" n="3"/>
+            <p>
+               <note type="authorial" place="margin_top">I called on the <persName><roleName
+                        key="President">President</roleName></persName> and family this evening and
+                  am <choice>
+                     <sic>invites</sic>
+                     <corr>invited</corr>
+                  </choice> to dine with him. That is Bout as near as I will ever come to live in
+                  the <orgName key="WH">White House</orgName></note> a family diner while in
+                  <placeName key="Philadelphia"><choice>
+                     <abbr>Phila</abbr>
+                     <expan>Philadelphia</expan>
+                  </choice></placeName> and there were <measure commodity="people" n="42">42
+                  persons</measure> to diner all Uncles Aunts Cousins half cousins and so forth They
+               are all nice good people they liked to talked me to death about our family When I get
+               rich I will have you <add place="inline" type="authorial">all</add> to come and see
+               them—; I was <choice>
+                  <sic>goin</sic>
+                  <corr>going</corr>
+               </choice> to send some presents to you all But <persName key="Louisa_C" full="abb"
+                  >Lulu</persName> said She <choice>
+                  <sic>knowed</sic>
+                  <corr>knew</corr>
+               </choice> what to buy better than me so I left Her to do it but She writes me She has
+               been to sick to attend to it but she </p>
+            <pb type="page" n="4"/>
+            <p> will send you something nice when she get well She says if I buy any thing it will
+               be no good to you and the baby She wants to get something that will do you some good.
+               I will <choice>
+                  <sic>surly</sic>
+                  <corr>surely</corr>
+               </choice> pay you a visit this <date type="season">summer</date>. as I am <choice>
+                  <sic>goin</sic>
+                  <corr>going</corr>
+               </choice> to go to <placeName key="Nebraska">Nebraska</placeName> for a hunt this
+                  <date type="season">summer</date> I will <choice>
+                  <sic>probaly</sic>
+                  <corr>probably</corr>
+               </choice> go to <placeName key="Europe">Europe</placeName> this <date type="season"
+                  >fall</date>. By the time you answer we will <choice>
+                  <sic>probaly</sic>
+                  <corr>probably</corr>
+               </choice> be <choice>
+                  <sic>liveing</sic>
+                  <corr>living</corr>
+               </choice> in <placeName key="Westchester">Westchester</placeName>
+               <choice>
+                  <abbr>P.A.</abbr>
+                  <expan>Pennsylvania Address</expan>
+               </choice> so write me there </p>
+            <closer>
+               <salute>Your affectionate <name key="William_C">Brother</name></salute>
+               <signed><persName key="William_C" full="abb">Will</persName></signed>
+            </closer>
+            <postscript>
+               <p>Love to all</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>
