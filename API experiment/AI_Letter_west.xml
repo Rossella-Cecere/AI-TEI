@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/TEI-C/tei-schemas/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Temple, September 28, 1739</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Encoded for demonstration purposes.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Encoded from a text file.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <head>
+          <placeName ref="#temple">Temple</placeName>, <date when="1739-09-28">Sep. 28. 1739</date>.
+        </head>
+        <p>If wishes could turn to realities, I would fling down my law books, and sup with you to-night. But, alas, here am I doomed to fix, while you are fluttering from city to city, and enjoying all the pleasures which a gay climate can afford. It is out of the power of my heart to envy your good fortune, yet I cannot help indulging a few natural desires; as for example, to take a walk with you on the banks of the <placeName ref="#rhone">Rhône</placeName>, and to be climbing up <placeName ref="#mountfourviere">mount Fourviere</placeName>;</p>
+        <lg>
+          <l>Jam mens prætrepidans avet vagari:</l>
+          <l>Jam læti studio pedes vigescunt.</l>
+        </lg>
+        <p>However, so long as I am not deprived of your correspondence, so long shall I always find some pleasure in being at home. And, setting all vain curiosity aside, when the fit is over, and my reason begins to come to herself, I have several other powerful motives which might easily cure me of my restless inclinations: Amongst these, my <persName ref="#mother">Mother</persName>'s ill state of health is not the least; which was the reason of our going to <placeName ref="#tunbridge">Tunbridge</placeName>, so that you cannot expect much description or amusement from thence. Nor indeed is there much room for either; for all diversions there may be reduced to two articles, gaming and going to church. They were pleased to publish certain <title>Tunbrigiana</title> this season; but such ana! I believe there were never so many vile little verses put together before. So much for <placeName ref="#tunbridge">Tunbridge</placeName>: <placeName ref="#london">London</placeName> affords me as little to say. What! so huge a town as <placeName ref="#london">London</placeName>? Yes, consider only how I live in that town. I never go into the gay or high world, and consequently receive nothing from thence to brighten my imagination. The busy world I leave to the busy; and am resolved never to talk politics till I can act at the same time. To tell old stories, or prate of old books, seems a little musty; and <quote>toujours Chapon bouilli</quote>, won't do. However, for want of better fare, take another little mouthful of my poetry.</p>
+        <lg>
+          <l>O meæ jucunda comes quietis!</l>
+          <l>Quæ ferè ægrotum solita es levare</l>
+          <l>Pectus, et sensim ah! nimis ingruentes</l>
+          <l>Fallere curas:</l>
+          <l>Quid canes? quanto Lyra dic furore</l>
+          <l>Gesties, quando hâc reducem sodalem</l>
+          <l>Glauciam gaudere simul videbis</l>
+          <l>Meque sub umbrâ?</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

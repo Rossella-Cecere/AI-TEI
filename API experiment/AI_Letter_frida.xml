@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/TEI-C/tei-schemas/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/TEI-C/tei-schemas/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Encoded Text</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Encoded using Python script</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Source text provided for encoding.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg>
+          <l><speaker>Diego</speaker></l>
+          <l>Verdad es, muy grande que yo no quisiera, ni hablar, ni dormir ni hoir, ni querer.</l>
+          <l>Sentirme enamorada, sin miedo, a la sangre, sin tiempo ni magia, dentro de tu gran</l>
+          <l>angustia, y, en el mismo ruido de tu corazon. Toda esta cura, si te la pidiera, yo sé</l>
+          <l>que saria, para tu silencio, solo turbacion.</l>
+          <l>Te pido violencia, en la sinrazon, y tu, me das gracia, tu luz y color.</l>
+          <l>Pintarte quisiera, per no hay colores, por hablerlos tantos, en mi confusion, la</l>
+          <l>forma concreta de mi gran amor.</l>
+          <l><speaker>F.</speaker></l>
+          <l>Cada momento, il es mi niño, mi niño nacido, cada talito, diario, de mi misma.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

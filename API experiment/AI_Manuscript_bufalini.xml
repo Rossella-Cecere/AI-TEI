@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/TEI-C/tei-schemas/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/TEI-C/tei-schemas/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Pentecoste</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Encoded for demonstration purposes.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Source of the text not specified.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <lg type="poem">
+        <l>La Pentecoste</l>
+        <l>Madre dei Santi, immagine</l>
+        <l>della città superna,</l>
+        <l>del Sangue incorruttibile</l>
+        <l>Conservatrice eterna,</l>
+        <l>tu, che da tanti secoli</l>
+        <l>soffri, combatti e preghi,</l>
+        <l>che le tue tende spieghi</l>
+        <l>dall'uno all'altro mar;</l>
+        <l> </l>
+        <l>Campo di quei che sperano,</l>
+        <l>Chiesa del Dio vivente,</l>
+        <l>Dov'eri mai? qual angolo</l>
+        <l>Ti raccogliea nascente...? </l>
+        <l> </l>
+        <l>...</l>
+        <l> </l>
+        <l>Compagna del suo gemito,</l>
+        <l>Conscia dei suoi misteri,</l>
+        <l>Tu, della sua vittoria</l>
+        <l>Figlia immortal, dov'eri?</l>
+        <l>In tuo terror sol vigile,</l>
+        <l>Sol nell'oblio secura,</l>
+        <l>Stavi in riposte mura,</l>
+        <l>Fino a quel sacro dì,</l>
+        <l>Quando su te lo spirito</l>
+        <l>Rinnovator discese</l>
+        <l> </l>
+        <l>...</l>
+        <l> </l>
+        <l>Quando segnal dei popoli</l>
+        <l>soffri!</l>
+      </lg>
+      <p>
+        <quote rend="italic">(c'è tutta la visione cristiana <ref type="note">[propria della rivoluzione cristiana, teorica e pratico- politica]</ref> della vita, della storia, dell'Assoluto. Senza sofferenza — consapevolmente accettata e con la volontà superata — non c'è conquista, non c'è storia, non c'è verità... Culmina in <persName>Hegel</persName>: la realtà è il divenire, la verità è nel divenire, l'Assoluto non è il presupposto, ma il risultato. Culmina in <persName>Marx</persName>: la realtà è il lavoro umano associato. La verità (il regno della libertà) è la conquista degli uomini associati tutti eguali (come in <persName>Cristo</persName> tutti figli di Dio) e nella loro sofferenza.</quote>
+      </p>
+    </body>
+  </text>
+</TEI>
