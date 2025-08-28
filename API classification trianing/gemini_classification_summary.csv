@@ -1,0 +1,87 @@
+index,filename,text,ground_truth,first_pred,correct_first,corpus
+1,Text_1.txt,"Washington. D. C.
+May 11th /73
+My Dear Sister
+Lulu sent me your letter I was ever so glad to hear fr
+[... truncated ...]
+ probaly be liveing in Westchester P.A. so write me there
+Your affectionate Brother
+Will
+Love to all",letter,letter,True,Original
+2,Text_2.txt,"Diego.
+Verdad es, muy grande que yo no quisiera, ni hablar, ni dormir ni hoir, ni querer.
+Sentirme e
+[... truncated ...]
+a de mi gran amor.
+F.
+Cada momento, il es mi niño, mi niño nacido, cada talito, diario, de mi misma.",letter,poem,False,Original
+3,Text_3.txt,"Temple, Sep. 28. 1739.
+If wishes could turn to realities, I would fling down my law books, and sup w
+[... truncated ...]
+ Lyra dic furore
+Gesties, quando hâc reducem sodalem
+Glauciam gaudere simul videbis
+Meque sub umbrâ?",letter,letter,True,Original
+4,Text_4.txt,"In vain to me the smiling mornings shine,
+And reddening Phoebus lifts his golden fire:
+The birds in 
+[... truncated ...]
+birds complain.
+I fruitless mourn to him that cannot hear,
+And weep the more because I weep in vain.",poem,poem,True,Original
+5,Text_5.txt,"Spesso il male di vivere ho incontrato:
+era il rivo strozzato che gorgoglia,
+era l’incartocciarsi de
+[... truncated ...]
+vina Indifferenza:
+era la statua nella sonnolenza
+del meriggio, e la nuvola, e il falco alto levato.",poem,poem,True,Original
+1,Text_1.txt,"Mi Diego:
+
+Espejo de la noche.
+Tus ojos espadas verdes dentro de mi carne.  Ondas entre nuestras man
+[... truncated ...]
+ra recorre todo el
+espacio y llega a mis células que son mis astros y va a los tuyos que son mi luz.",letter,poem,False,Training
+2,Text_2.txt,"M'illumino
+d'immenso.",poem,poem,True,Training
+3,Text_3.txt,"Those hours, that with gentle work did frame
+The lovely gaze where every eye doth dwell,
+Will play t
+[... truncated ...]
+rs distill'd, though they with winter meet,
+Leese but their show; their substance still lives sweet.",poem,poem,True,Training
+4,Text_4.txt,"Erano i capei d’oro a l’aura sparsi
+che ’n mille dolci nodi gli avolgea,
+e ’l vago lume oltra misura
+[... truncated ...]
+leste, un vivo sole
+fu quel ch’i' vidi: e se non fosse or tale,
+piagha per allentar d’arco non sana.",poem,poem,True,Training
+5,Text_5.txt,"NEULINGGASSE 26/14
+1030 WIEN
+TEL. 73 94 015
+                                            5. April 197
+[... truncated ...]
+her""?
+Aber wenn nicht, ist mir Alles recht!
+
+               Mit herzlichen Grüßen,
+
+Stella Musulin ´",letter,letter,True,Training
+6,Text_6.txt,"From the Rev. R Rice, Chaplain on board the Vulture - to Mr. Dewar
+
+Buyukdere - Dec. 30/56
+
+My dear 
+[... truncated ...]
+h those whom the Lord has been pleased this heavily to afflict -
+I am Sir
+Yours sincerely Richd Rice",letter,letter,True,Training
+7,Text_7.txt,"Diego.
+Verdad es, muy grande que yo no quisiera, ni hablar, ni dormir ni hoir, ni querer.
+Sentirme e
+[... truncated ...]
+a de mi gran amor.
+F.
+Cada momento, il es mi niño, mi niño nacido, cada talito, diario, de mi misma.",letter,poem,False,Training
